@@ -2,17 +2,9 @@
 
 ## Description
 
-This is my implementation of a version control system inspired by Git. This system supports most core functionalities provided by Git, such as repository creation, branching, merging, logs, and merge conflict detection. This project was built in Java and utilizes multiple data structures and algorithms to enable efficient handling of large files.
+This is my implementation of a version control system inspired by Git. This system supports most core functionalities provided by Git, such as repository creation, branching, merging, logs, and merge conflict detection. This project was built in Java and utilizes multiple data structures and algorithms to enable efficient handling of large files, as well as serialization for persistence. A short write-up of the design of this system can be found in the gitlet-design.md file.
 
-Some features that could be implemented in the future to improve this project would be the ability to create remote repositories and implementing a conflict resolution protocol for users.
-
-## Design
-
-A detailed write up of the design of this system can be found in the gitlet-design.md file. 
-
-## Instructions for Use
-
-TODO
+The full list of supported commands include: init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, and merge.
 
 ## Collaborators
 
