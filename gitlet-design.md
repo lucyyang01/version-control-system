@@ -1,7 +1,3 @@
-# Gitlet Design Document
-
-**Name**: Lucy Yang
-
 ## Classes and Data Structures
 
 ###Main
@@ -39,9 +35,5 @@ This handles everything to do relating to commits, such as specific commit insta
 10. BRANCHES: file to save branches treemap
 11. branches: treemap containing branch names and the head commit in each branch
 
-
-## Algorithms
-
 ## Persistence
 Persistence is maintained in Repository and Commit classes. Repository serializes and writes to disk every single treemap in my code. Commit serializes and writes to disk the Head commit, which it saves to the HEAD file. 
-hi
